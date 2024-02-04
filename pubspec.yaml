@@ -1,0 +1,25 @@
+name: flutter_vanilla
+description: Flutter lib based on Vanilla (Ubuntu) Design System
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+  flutter: ">=3.10.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  mocktail: ^1.0.0
+  very_good_analysis: ^5.1.0
+
+flutter:
+  assets:
+    - assets/icons/
+  fonts:
+    - family: VanillaIcons
+      fonts:
+        - asset: assets/icons/VanillaIcons.ttf
